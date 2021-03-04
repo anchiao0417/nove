@@ -40,3 +40,5 @@ fields:
   type: tag_list
   default: []
   label: Authors
+pages:
+- content/post/how-to-solve-homebrew-installation-failure.md
