@@ -1,10 +1,11 @@
 ---
 timeToRead: 3
-authors: []
+authors:
+- Thiago Costa
 title: 'How to solve Homebrew installation failure?  '
-excerpt: Joanne
+excerpt: 'xcode-select: error: invalid developer directory ''/Library/Developer/CommandLineTools'''
 date: 2021-03-03T16:00:00+00:00
-hero: ''
+hero: "/images/rabbit.jpg"
 
 ---
 xcode-select: error: invalid developer directory '/Library/Developer/CommandLineTools'
@@ -19,7 +20,6 @@ If you get this error message while installing Homebrew, try following my steps 
     ==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
     xcode-select: error: invalid developer directory '/Library/Developer/CommandLineTools'
     Failed during: /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
-    
 
 Then you can try to download the CommandLineTool manually on Apple Developer ([https://developer.apple.com](https://developer.apple.com "https://developer.apple.com"))
 
@@ -31,7 +31,7 @@ It's hard to get a clue of what makes it happen since it says 'unknown error'. I
 
 After some time of research, I found that CommandLineTools is installed if downloading the App 'Xcode' from Appstore, just note that in this way, the CommandLineTools might be in other directory, not as it should be in the homebrew install script.
 
-So here we found the solution, copy the homebrew install script , then simply replace 
+So here we found the solution, copy the homebrew install script , then simply replace
 
 **/Library/Developer/CommandLineTools**
 
