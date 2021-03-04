@@ -2,7 +2,7 @@
 timeToRead: 3
 authors: []
 title: 'How to solve Homebrew installation failure?  '
-excerpt: ''
+excerpt: Joanne
 date: 2021-03-03T16:00:00+00:00
 hero: ''
 
