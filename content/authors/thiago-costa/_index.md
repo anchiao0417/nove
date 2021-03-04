@@ -1,19 +1,20 @@
 ---
-title: Thiago Costa
-bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
-avatar: /images/thiago-costa.jpg
+title: Joanne
+bio: 'Written by Joanne. A programmer based in Taipei Taiwan.
+
+'
+avatar: "/images/the-rabbit-gift-idea-guide-how-to-choose-a-gift-for-a-bunny-lover.jfif"
 featured: false
 social:
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+
 ---
