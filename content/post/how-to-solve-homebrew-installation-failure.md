@@ -18,6 +18,7 @@ hero: "/images/homebrew-1.jpg"
     xcode-select: error: invalid developer directory '/Library/Developer/CommandLineTools'
     Failed during: /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
 ```
+
 If you get this error message while installing Homebrew, following my steps for troubleshooting!
 
 First, try to download the CommandLineTool manually on [Apple Developer](https://developer.apple.com)
@@ -26,7 +27,7 @@ If you're able to log in and download the latest version of it, you should be go
 
 However, in my case, I get this message whenever I try to log in to the download page:
 
-> We are unable to process your request. An unknown error occurred.
+"We are unable to process your request. An unknown error occurred."
 
 It's hard to get a clue of what makes it happen since it says 'unknown error'. I contacted Apple Customer service for help, unfortunately they couldn't address the problem. Apple should fix this problem seriously.
 
@@ -43,7 +44,9 @@ to
 You can also get this install file here in my [Github](https://github.com/anchiao0417/homebrew/blob/main/install.sh)
 
 Download the script and cd to where it is, run it on the terminal
+
 ```shell
     ./install.sh
 ```
+
 That's it! I believe this is because XCode's latest version has changed its installed path, however, Homebrew's install script still remains the old path which causes the problem.
